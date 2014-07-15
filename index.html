@@ -49,8 +49,9 @@
   		
   		var location_id = window.location;
 		if(location_id == "http://mahendraraut.net/#mailSent") {
-		 window.location.assign("http://mahendraraut.net")
+		 window.location.assign("http://mahendraraut.net#contact")
 		 alert("Response Received");
+		 document.getElementById("msg").innerHTML = "Response Received";
 		}
 	</script>
 
@@ -168,7 +169,9 @@
 					<!--	<h2>Say Hello @ <a href="mailto:mahendraraut@gmail.com?Subject=Hello" target="_top">mahendraraut@gmail.com</a></h2> -->
 					<!--	<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p> -->
 					</header>
-					
+					<div id="msg">
+						
+					</div>
 					
 					<div class="box container small">
 					
